@@ -44,14 +44,14 @@ body {
   flex-direction: column;
 }
 
-#botaoentrar {
+#botaologin {
   border-radius: 7px;
   color: aliceblue;
   padding: 7px;
   background-color: dodgerblue;
 }
 
-#botaoentrar:hover {
+#botaologin:hover {
   cursor: pointer;
   background-color: deepskyblue;
 
