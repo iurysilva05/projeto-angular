@@ -5,6 +5,7 @@ import { HeaderComponent } from '../header/header.component';
   selector: 'app-hom',
   standalone: true,
   imports: [HeaderComponent],
+  providers: [],
   templateUrl: './hom.component.html',
   styleUrl: './hom.component.css'
 })
