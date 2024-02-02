@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [
     NgOptimizedImage
-  ],
+  ], //facilita o carregamento da imagens
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
