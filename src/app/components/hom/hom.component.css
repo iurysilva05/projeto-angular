@@ -1,4 +1,5 @@
 main {
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,28 +39,27 @@ main {
   flex-direction: column;
 }
 
-.boxbuttonlogin {
-
-  width: 250px;
+ /* .boxbuttonlogin {
   padding: 10px;
   display: flex;
   flex-direction: column;
-}
+} */
 
 
-#botaologin {
+/* #botaologin {
   border-radius: 7px;
   color: aliceblue;
   padding: 7px;
   background-color: dodgerblue;
-}
+} */
 
 
-#botaologin:hover {
+/* #botaologin:hover {
+
   cursor: pointer;
   background-color: deepskyblue;
 
-}
+} */
 
 
 input {
@@ -67,7 +67,8 @@ input {
 }
 
 
-.titulo-login{
+.titulo-login {
+
   font-family: sans-serif;
   display: flex;
   align-items: center;
@@ -76,6 +77,7 @@ input {
 
 
 .esqueceuasenha {
+
   display: flex;
   align-items: center;
   justify-content: center;
