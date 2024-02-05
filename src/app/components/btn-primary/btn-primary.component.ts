@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Output, Input,  EventEmitter  } from '@angular/core';
-import { HomComponent } from '../hom/hom.component';
+
 
 
 

@@ -1,19 +1,21 @@
 <app-header></app-header>
 
 
-<main>
-  <div class="teladelogin">
+<section class="formsection">
+
+  <form class="teladelogin" [formGroup]="myformslogin">
 
     <h1 class="titulo-login">Login</h1>
 
     <div class="boxemail">
-        <label for="email"> Seu e-mail</label>
-        <input type="email" placeholder="Ex:12345678980@gmail.com" >
+        <label for="email"> Seu e-mail </label>
+        <input type="email" placeholder="Ex:12345678980@gmail.com" formControlName="email" >
     </div>
 
     <div class="boxsenha">
         <label for="senha">Senha</label>
-        <input type="password" placeholder="1234">
+        <input type="password" placeholder="1234"  formControlName="senha">
+
     </div>
 
     <!-- <div class="boxbuttonlogin">
@@ -21,11 +23,14 @@
     </div> -->
 
     <div>
-      <btn-primary btn-text="Entrar" variant="primary"></btn-primary>
+
+      <btn-primary btn-text="Entrar" variant="primary" (submit)="dosubmit()"></btn-primary>
+      
     </div>
 
     <br>
     <a href="#" class="esqueceuasenha"> Esqueci a senha </a>
 
-  </div>
-</main>
+  </form>
+
+</section>
