@@ -9,7 +9,7 @@
 
 
 .teladelogin {
-
+  background-color: aliceblue;
   padding: 30px;
   /* position: absolute;
   top: 50%;
@@ -84,15 +84,16 @@ input {
 }
 
 
-#caixaseepassword {
-  margin-left: 120px;
+#boxseepassword {
+  margin-left: 130px;
   margin-top: 5px;
-  
+
 
 
 }
 
 
 
-
-
+.btn-login {
+  margin-top: 20px;
+}

@@ -15,23 +15,17 @@
     <div class="boxsenha">
         <label for="senha">Senha</label>
         <input type="password" placeholder="1234"  formControlName="senha" id="senhaInput">
-        <span id="caixaseepassword"> Mostrar senha <input type="checkbox" (change)="mostrarOcultarSenha()" > </span>
+        <span id="boxseepassword"> Mostrar senha <input type="checkbox" (change)="mostrarOcultarSenha()" > </span>
 
 
     </div>
 
-    <!-- <div class="boxbuttonlogin">
-        <button id="botaologin">Entrar</button>
-    </div> -->
-
-    <div>
-
+    <div class="btn-login">
       <btn-primary btn-text="Entrar" variant="primary" (submit)="dosubmit()"></btn-primary>
-
     </div>
 
     <br>
-    <a href="#" class="esqueceuasenha"> Esqueci a senha </a>
+    <a href="https://github.com/jeanf009" target="_blank" rel="external" class="esqueceuasenha"> Esqueci a senha </a>
 
   </form>
 
