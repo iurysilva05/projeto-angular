@@ -14,7 +14,9 @@
 
     <div class="boxsenha">
         <label for="senha">Senha</label>
-        <input type="password" placeholder="1234"  formControlName="senha">
+        <input type="password" placeholder="1234"  formControlName="senha" id="senhaInput">
+        <span id="caixaseepassword"> Mostrar senha <input type="checkbox" (change)="mostrarOcultarSenha()" > </span>
+
 
     </div>
 
@@ -25,7 +27,7 @@
     <div>
 
       <btn-primary btn-text="Entrar" variant="primary" (submit)="dosubmit()"></btn-primary>
-      
+
     </div>
 
     <br>
