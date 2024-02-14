@@ -21,7 +21,7 @@
     </div>
 
     <div class="btn-login">
-      <btn-primary btn-text="Entrar" variant="primary" (submit)="dosubmit()"></btn-primary>
+      <btn-primary btn-text="Entrar" variant="primary" (submit)="dosubmit()" [disabled]="!myformslogin.valid"></btn-primary>
     </div>
 
     <br>
