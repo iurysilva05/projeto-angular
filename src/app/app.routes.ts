@@ -5,8 +5,8 @@ import { PrimaryPageComponent } from './components/primary-page/primary-page.com
 
 export const routes: Routes = [
 
-  { path: "", component: HomComponent },
-  
+  { path: "hom.component", component: HomComponent },
+
   { path: "", component: PrimaryPageComponent },
 
 
